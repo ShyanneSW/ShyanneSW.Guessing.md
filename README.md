@@ -1,7 +1,7 @@
 # ShyanneSW.Guessing.md
 # Title: Guessing Game
-```Mermaid
-flowchart TD
+```Mermaid graph TD; Dir((<img src='https://iconscout.com/ms-icon-310x310.png' width='40' />))
+flowchart TD 
     A[Guess A Number Between 1-50 ] --> B{User Guess}
     B -- Too Low --> C[Guess Again] --> G
     C --> D[Incorrect Again... You Lose!]
